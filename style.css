@@ -1,0 +1,27 @@
+/* Khai niem viewport */
+
+/* media query
+
+
+cu phap:
+
+media not/only mediatype and(meadiafeature and/or/not mediafeature){
+    css-code
+}
+
+1. keyword
+-not
+-and
+-or
+-only
+
+
+2. mediatypes
+-print
+-screen
+-speech
+-all-default
+
+3. mediafeatures
+-min-width
+-max-width */
