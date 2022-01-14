@@ -25,3 +25,41 @@ media not/only mediatype and(meadiafeature and/or/not mediafeature){
 3. mediafeatures
 -min-width
 -max-width */
+
+
+/* BREAKPOINT */
+
+body{
+    background-color: rgb(255, 166, 0);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.mobile,
+.Tablet,
+.PC{
+    font-size: 100px;
+    margin: auto;
+    display: none;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .mobile{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1025px){
+    .Tablet{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1224px){
+    .PC{
+        display: block;
+    }
+}
+
